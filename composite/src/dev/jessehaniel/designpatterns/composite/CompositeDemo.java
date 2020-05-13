@@ -1,9 +1,9 @@
-package dev.jessehaniel.designpatterns;
+package dev.jessehaniel.designpatterns.composite;
 
-import dev.jessehaniel.designpatterns.base.Department;
+import dev.jessehaniel.designpatterns.composite.Department;
 import dev.jessehaniel.designpatterns.composite.HeadDepartment;
-import dev.jessehaniel.designpatterns.leaf.FinancialDepartment;
-import dev.jessehaniel.designpatterns.leaf.SalesDepartment;
+import dev.jessehaniel.designpatterns.composite.FinancialDepartment;
+import dev.jessehaniel.designpatterns.composite.SalesDepartment;
 
 public class CompositeDemo {
     public static void main(String[] args) {

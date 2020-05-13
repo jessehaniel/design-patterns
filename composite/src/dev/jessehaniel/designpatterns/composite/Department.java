@@ -1,4 +1,4 @@
-package dev.jessehaniel.designpatterns.base;
+package dev.jessehaniel.designpatterns.composite;
 
 /**
  * Base component

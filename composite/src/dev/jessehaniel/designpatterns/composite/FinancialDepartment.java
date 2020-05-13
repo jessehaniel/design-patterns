@@ -1,12 +1,12 @@
-package dev.jessehaniel.designpatterns.leaf;
+package dev.jessehaniel.designpatterns.composite;
 
-import dev.jessehaniel.designpatterns.base.Department;
+import dev.jessehaniel.designpatterns.composite.Department;
 
 /**
  * Leaf
  */
-public class SalesDepartment implements Department {
-   
+public class FinancialDepartment implements Department {
+    
     private Integer id;
     private String name;
     
@@ -14,11 +14,11 @@ public class SalesDepartment implements Department {
         System.out.println(getClass().getSimpleName());
     }
     
-    public SalesDepartment() {
+    public FinancialDepartment() {
         super();
     }
     
-    public SalesDepartment(Integer id, String name) {
+    public FinancialDepartment(Integer id, String name) {
         this.id = id;
         this.name = name;
     }

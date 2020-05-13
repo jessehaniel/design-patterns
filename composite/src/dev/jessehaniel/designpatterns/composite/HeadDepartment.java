@@ -1,7 +1,5 @@
 package dev.jessehaniel.designpatterns.composite;
 
-import dev.jessehaniel.designpatterns.base.Department;
-
 import java.util.ArrayList;
 import java.util.List;
 
