@@ -1,7 +1,5 @@
 package dev.jessehaniel.designpatterns.composite;
 
-import dev.jessehaniel.designpatterns.composite.Department;
-
 /**
  * Leaf
  */

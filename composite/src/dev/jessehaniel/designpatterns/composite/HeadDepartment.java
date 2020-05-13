@@ -8,10 +8,10 @@ import java.util.List;
  */
 public class HeadDepartment implements Department {
     
-    private Integer id;
-    private String name;
+    private final Integer id;
+    private final String name;
     
-    private List<Department> childDepartments;
+    private final List<Department> childDepartments;
     
     public HeadDepartment(Integer id, String name) {
         this.id = id;

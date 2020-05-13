@@ -1,12 +1,10 @@
 package dev.jessehaniel.designpatterns.composite;
 
-import dev.jessehaniel.designpatterns.composite.Department;
-
 /**
  * Leaf
  */
 public class SalesDepartment implements Department {
-   
+    
     private Integer id;
     private String name;
     

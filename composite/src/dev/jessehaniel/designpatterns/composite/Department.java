@@ -6,5 +6,5 @@ package dev.jessehaniel.designpatterns.composite;
 public interface Department {
     
     void printDepartmentName();
-
+    
 }
